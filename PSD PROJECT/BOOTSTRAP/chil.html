@@ -1,0 +1,157 @@
+<html>
+<head>
+  <title>APPLICATION</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>  
+body{
+background-image:url("C:/Users/vibud/Downloads/gettyimages-683785006-612x612.jpg");
+background-size:cover;
+background-position:center center;
+background-repeat:no repeat;
+}
+</style>
+</head>
+ <body>
+<div class="container-fluid" style="background-color:red;color:black;padding:20px;font-style:20pt;">
+ <div class="offcanvas offcanvas-start" id="vibu">
+ <div class="offcanvas-header">
+ <h1 class="offcanvas-title">APPLICATION FORM</h1>
+ <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+ </div>
+ <div class="offcanvas-body">
+ <a href="E:\New folder\boot.html">HOME</a><br>
+ <a href="E:\application.html">LOAN REGISTRATION</a>
+ 
+ 
+ </div>
+ </div>
+<button type="button" class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#vibu" >HOME</button>
+<strong>CREATING ACCOUNT(CHILDREN'S ACCOUNT)</strong>
+</div>
+<div class="container">
+<div class="form-check form-switch">
+<input class="form-check-input" type="checkbox" id="mys" checked>
+<label class="check-label">DAYMODE</label>
+</div>
+<form action="E:\New folder\mail.html">
+<div class="mb-3 mt-2">
+<label class="form-label" style="font-size:15pt;">NAME:</label>
+<input type="text" class="form-contol" id="nm" value="INILIAL LAST">
+</div>
+
+<div class="mb-3 mt-2">
+<label class="form-label" style="font-size:15pt;">FATHER'S NAME :</label>
+<input type="text" class="form-contol" id="nm" value="FATHER'S NAME">
+</div>
+<div class="mb-3 mt-2">
+<label class="form-label" style="font-size:15pt;">PHONE NUMBER: </label>
+<input type="text" class="form-contol" id="nm" size="1" value="+91" disabled>
+<input type="text" class="form-contol" id="nm" maxlength="10" value="0000000000">
+</div>
+<div class="mb-3 mt-2">
+<label class="form-label" style="font-size:15pt;">AGE</label>
+<input type="number" class="form-contol"  max="18" id="nm" value="1">
+</div>
+<div class="mb-3 mt-2">
+<label class="form-label" style="font-size:15pt;">DATE OF BIRTH</label>
+<input type="datetime-local" class="form-contol" id="dob" value="dd-mm-yy">
+</div>
+<div class="form-group mb-3 mt-5">
+<label class="form-label" >ADDRESS</label>
+<textarea class="form-control" id="co" name="text">
+</textarea>
+
+</div>
+  <div class="mb-3 mt-8">
+  <label class="form-label" style="font-size:15pt;">ENTER YOUR EMAIL-ID:</label>
+  <input type="email" class="form-control" id="em" placeholder="UPI-ID">
+  </div>
+  <div class="mb-3 mt-2">
+<label class="form-label" style="font-size:15pt;">NATIONALITY</label>
+<input type="text" class="form-contol" id="nm" value="INDIAN">
+</div>
+<div class="mb-3 mt-2">
+<label class="form-label" style="font-size:15pt;">PAN NUMBER: </label>
+<input type="text" class="form-contol" id="pm" maxlength="14" value="if applicable">
+</div>
+<div class="mb-3 mt-2">
+<label class="form-label" style="font-size:15pt;">PARENT'S PAN NUMBER: </label>
+<input type="text" class="form-contol" id="pm" maxlength="14" value="MANDATORY" required>
+</div>
+<div class="mb-3 mt-2">
+<label class="form-label" style="font-size:15pt;">AADHAR NUMBER: </label>
+<input type="text" class="form-contol" id="am" maxlength="12">
+</div>
+
+<div class="mb-3 mt-2">
+<label class="form-label" style="font-size:15pt;">PARENT'S AADHAR NUMBER: </label>
+<input type="text" class="form-contol" id="am" maxlength="12">
+</div>
+<div class="row">
+<label class="form-check-label" style="font-size:15pt;">GENDER</label>
+<div class="col">
+ <div class="form-check mb-3" >
+  <input class="form-check-input" type="radio" value="rado1" name="gender" required>
+  <label class="form-check-label">MALE</label>
+ </div>
+ </div>
+ <div class="col">
+ <div class="form-check" class="column">
+  <input class="form-check-input" class="form-inline"type="radio"  value="rado2" name="gender" required>
+  <label class="form-check-label">FEMALE</label>
+ </div>
+ </div>
+ <br>
+<div class="form-group">
+<label class="form-label" style="font-size:15pt;">ACCOUNT TYPE</label>
+<select class="form-select">
+<option>SAVING ACCOUNT</option>
+<option>CURRENT ACCOUNT</option>
+</select>
+
+<label class="form-label" style="font-size:15pt;">WHAT DO YOU WANT?</label>
+<div class="form-check">
+<label class="form-label">CREDIT CARD</label>
+<input type="checkbox" class="form-check-input" id="li" value="1">
+</div>
+<div class="form-check">
+<label class="form-label">DEBIT CARD</label>
+<input type="checkbox" class="form-check-input" id="li" value="2">
+</div>
+<div class="form-check">
+<label class="form-label">PASSBOOK</label>
+<input type="checkbox" class="form-check-input" id="li" value="3">
+</div>
+<div class="form-check">
+<label class="form-label">ACCOUNT BRANCH TYPE DETAILS</label>
+<input type="checkbox" class="form-check-input" id="li" value="4">
+</div>
+<div class="form-check">
+<label class="form-label">BONA BOOK</label>
+<input type="checkbox" class="form-check-input" id="li" value="5">
+</div>
+<div class="form-check">
+<label class="form-label " style="font-size:15pt;">UPLOAD YOUR AADHAR</label>
+<input type="file" class="form-check-input-lg" id="fu" value="file">
+</div>
+<div class="form-check">
+<label class="form-label " style="font-size:15pt;">UPLOAD YOUR  PARENT'S AADHAR</label>
+<input type="file" class="form-check-input-lg" id="fu" value="file">
+</div>
+<div class="form-check mb-3 ">
+  <label class="form-check-label text-success">
+  <input class="form-check-input" type="checkbox" required>I ACCEPT ALL THE TERMS AND CONDITION</label>
+  </div>
+   <button type="submit" class="btn btn-primary">SUBMIT</button>
+    <button type="reset" class="btn btn-primary">RESET</button>
+  
+</form>
+</div>
+ 
+ </body>
+ </html>

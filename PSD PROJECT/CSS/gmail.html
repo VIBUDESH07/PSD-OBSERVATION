@@ -1,0 +1,93 @@
+<html>
+<head>
+<style>
+*{padding:0;
+margin:0;
+box-sizing:border-box;
+font-family:sans-serif;
+}
+body{
+display:flex;
+min-height:100hv;
+flex-direction:column;
+gap:70px;
+}
+.input-bx{
+position:relative;
+width:300px;
+}
+.input-bx input{
+width:100%;
+paddig:10px;
+border:7px solid:red;
+border-radius:5px;
+outline-style:solid;
+outline-width:15px;
+
+font-size:15px;
+transition:0.6s;
+}
+.input-bx span{
+position:absolute;
+left:0;
+padding:10px;
+font-size:15pt;
+color:red;
+text-transform: uppercase;
+top:-30px;
+pointer-events:none;
+transition:0.6x;
+}
+.input-bx input:valid~span,
+.input-bx input:focus~span{
+color:blue;
+transform:translatex(10px)translatey(-7px);
+font-size:20px;
+font-weight:thicker;
+padding:10px;
+background:yellow;
+
+}
+.input-bx input:valid
+.input-bx input:focus{
+color:red;
+}
+</style>
+<style>
+body{
+background-image:url("C:/Users/vibud/Downloads/1898317.jpg");
+background-size:cover;
+background-position:center center;
+background-repeat:no repeat;
+}
+button{
+padding:1px;
+background-color:blue;
+color:white;
+cursor:pointer;
+}
+button:hover{
+background-color:red;
+}
+label{
+color:blue; font-size:15pt;}
+
+</style>
+</head>
+<body bgcolor="red" >
+<form action="E:\New folder\csk7.html">
+<center>
+<h1 style="background-color:yellow;padding:20px;color:blue;">TO CONFIRM YOUR REGISTRATION</h1><br><br><br><br>
+<div class="input-bx">
+<input style="padding:20px;"type="email"required="required">
+<span> e-mail</span>
+</div><br><br>
+<div class="input-bx">
+<input style="padding:20px;" type="password"required="required">
+<span>password</span>
+</div><br><br>
+
+<button type="submit" href="/" style="font-size:30pt;padding:20px;">REGISTER</button>
+</center>
+</body>
+</html>

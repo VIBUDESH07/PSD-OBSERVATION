@@ -1,0 +1,142 @@
+<html>
+<head>
+<style>
+body
+{
+background-image:url("C:/Users/vibud/Downloads/kk.jpg");
+background-size:cover;
+background-position:center center;
+background-repeat:no repeat;
+
+}
+label{
+background-color:yellow;
+color:blue;
+padding:10px;
+font-size:20pt;
+font-weight:thicker;}
+legend{
+background-color:black;
+color:red;
+font-size:20pt;
+}
+input{
+padding:15px;}
+button{
+padding:20px;
+background-color:blue;
+color:white;
+cursor:pointer;
+}
+input:hover,textarea:hover{
+outline-style:solid;
+outline-width:5px;
+outline-color:red;
+border:40px;
+}
+ 
+button:hover{
+background-color:red;
+padding:20px;
+}
+</style>
+</head>
+<body>
+<center><h1 style="background-color:yellow;color:blue;">REGISTRATION FOR COACHING</h1></center>
+<form  action="E:/New folder/gmail.html">
+
+<fieldset >
+<legend>APPLICATION FORM</legend>
+<fieldset>
+<legend>PERSONAL DETAILS :</legend>
+<label>FIRST NAME :</label>
+<input type="text"  name="first" placeholder="VIRAT KOHLI"maxlength="60" tabindex="1" required><br><br>
+<label>LAST NAME :</label>
+<input type="text"  name="LAST"  maxlength="10" tabindex="2"><br><br>
+<label>FATHERS NAME :</label>
+<input type="text"  name="father name"  minlength="1" maxlength="10" tabindex="3"><br><br>
+<label>DATE OF BIRTH :</label>
+<input type="datetime-local"  name="DOB" value="dd-mm-yy" s tabindex="4" required><br><br>
+<label>AGE :</label>
+<input type="number"   value="5" min="17" max="45" tabindex="5" required><br><br>
+<label>GENDER :</label>
+<input type="radio"name="GENDER"value="Male"><label>Male</label>
+<input type="radio"name="GENDER"value="FEMALE"><label>Female</label><br><br>
+<label>E-MAIL :</label>
+<input type="mail"placeholder="enter your valid e-mail"name=""><br><br>
+<label>MOBILE NUMBER :</label>
+<input type="text"name="country code"value="+91"size="1">
+<input type="text"name="mobile" maxlength="10">
+<br><br>
+<label>PHYSICAL STREGNTH :</label>
+<input type="radio"  id="bowling"name="physical" value="bowling"  tabindex="6" required>
+<label>BOWLING</label>
+<input type="radio"  id="battimg"name="physical" value="batting"  tabindex="6" required>
+<label>BATTING</label>
+<input type="radio"  id="allrounder"name="physical" value="allrounders"  tabindex="6" required>
+<label>ALLROUNDER</label><br><br>
+<label>WEAKNESS OR ANY UNORTHODOX ACTION : </label>
+<input type="text" name="weakness" value="not mandatory" tabindex="7"><br><br>
+<label>BLOOD GROUP :</label>
+<input type="text" name="blood group"><br><br>
+<label>HEIGHT :</label>
+<input type="number"value="" min="5" max="180"><br><br>
+<label>WEIGHT :</label>
+<input type="number"value="" min="50" max="85"><br><br>
+<label>DO YOU HAVE A PASS PORT ?</label>
+<input type="radio" id="yes" name="pass" tabindex="8" required>
+<label> yes</label>
+<input type="radio" id="no" name="pass"tabindex="8" required>
+<label> no</label><br><br>
+</fieldset>
+<fieldset>
+<legend> OTHER SKILLS </legend>
+<label>LANGUAGES KNOWN :</label>
+<select style="padding:10px;">
+<option>English</option>
+<option>Tamil</option>
+<option>Telugu</option>
+<option>Malayalam</option>
+</select><br><br>
+<label>PART TIME :</label>
+<input type="text" value="not necessary" tabindex="10"><br><br>
+<label> TYPE OF BATTING :</label> <br><br>
+<input type="checkbox" name="type" tabindex="11">
+<label>RIGHT HAND ORTHODOX </label><br><br>
+<input type="checkbox"  name="type" tabindex="11">
+<label>RIGHT HAND UNORTHODOX</label><br><br>
+<input type="checkbox" name="type" tabindex="11">
+<label>LEFT HAND ORTHODOX </label><br><br>
+<input type="checkbox"  name="type" tabindex="11">
+<label>LEFT HAND UNORTHODOX</label><br><br>
+<label>TYPE OF BOWLING  :</label>
+<select style="padding:10px;"id="BOWLING" name="bowling" >
+<option>RIGHT ARM OFF SPIN</option>v
+<option>RIGHT ARM legSPIN</option>
+<option>LEFT ARM OFF SPIN</option>
+<option>LEFT ARM LEG SPIN</option>
+<option>RIGHT ARM FAST</option>
+<option>RIGHT ARM MEDIUM FAST</option>
+<option>LEFT ARM FAST</option>
+<option>RIGHT ARM MEDIUM FAST</option>
+</select><br><br>
+</fieldset>
+<fieldset>
+<legend>COMMUNICATION DETAILS :</legend>
+<label>ADDRESS</label>
+<textarea rows="10" cols="30" name="address" tabindex="12" placeholder="Address">
+</textarea>
+</fieldset>
+<fieldset>
+<legend>PAYMENT DETAILS</legend>
+<label>ENTER YOUR UPI ID*</label>
+<input type="gmail" name="gmail" required><br><br>
+<label>ENTER YOUR UPI NUMBER</label>
+<input type="text" name="upi" required><br><br>
+</fieldset>
+<button type="submit" href="\">SUBMIT</button>
+<button type="reset" href="\">RESET</button>
+
+</fieldset>
+</body>
+</html>
